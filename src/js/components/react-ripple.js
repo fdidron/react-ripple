@@ -43,7 +43,6 @@ class Ripple extends React.Component {
     let $ripple = this.refs.ripple
     let $button = $ripple.parentElement
 
-    let buttonStyle = window.getComputedStyle($button)
     let buttonPos = $button.getBoundingClientRect()
 
     let buttonWidth = $button.offsetWidth
