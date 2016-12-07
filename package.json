@@ -2,7 +2,7 @@
   "name": "react-ripple-effect",
   "version": "1.0.4",
   "description": "React Component to Make Google Material Design Ripple Effect",
-  "main": "./src/js/components/index.js",
+  "main": "build/build.js",
   "scripts": {
     "dev": "webpack-dev-server --inline --hot",
     "build": "webpack -p"
